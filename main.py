@@ -34,7 +34,7 @@ def main():
     # Initialize chat history
     chat_history = []
 
-    user_query = st.text_input("You:", "Ask a question about Egypt tourism:")
+    user_query = st.text_input("You:", "How do I obtain an Egyptian tourist visa?")
     if user_query:
         chat_history.append(("You", user_query))
         chatbot_response = get_response(user_query)
