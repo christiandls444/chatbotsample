@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+import openpyxl  # Add this line
 
 # Load the dataset
 dataset_path = "chatbot.xlsx"  # Update with the actual path
